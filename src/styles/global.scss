@@ -9,65 +9,9 @@ body {
   padding-left: 130px;
   padding-right: 130px;
   font-family: "Inter", sans-serif;
+  overflow: hidden;
 }
 
-.circle-left {
-  position: absolute;
-  transform: translateX(-50%);
-  left: 0;
-  top: 40%;
-}
-
-.circle-right {
-  position: absolute;
-  transform: translateX(40%);
-  right: 0;
-}
-
-.circle-center {
-  position: absolute;
-  transform: translateY(-65%);
-  top: 0;
-  left: 484px;
-  right: 609px;
-}
-
-.dot-red-left {
-  position: absolute;
-  background-color: $red;
-  width: 8px;
-  height: 8px;
-  border-radius: 100%;
-  top: 144px;
-  left: 81px;
-}
-
-.dot-violet {
-  position: absolute;
-  background-color: $violet-200;
-  width: 8px;
-  height: 8px;
-  border-radius: 100%;
-  bottom: 108px;
-  left: 660px;
-}
-
-.dot-green {
-  position: absolute;
-  background-color: $green;
-  width: 8px;
-  height: 8px;
-  border-radius: 100%;
-  top: 84px;
-  left: 875px;
-}
-
-.dot-red-right {
-  position: absolute;
-  background-color: $red;
-  width: 8px;
-  height: 8px;
-  border-radius: 100%;
-  bottom: 208px;
-  right: 173px;
+main {
+  min-height: calc(100vh - 170px);
 }

@@ -6,7 +6,10 @@ function App() {
     <div>
       <Header />
       <BackgroundElements />
-      <CardsSection />
+      <main>
+        <CardsSection />
+      </main>
+
       <Footer />
     </div>
   );
