@@ -1,9 +1,10 @@
-import React from "react";
-import { Card } from "../card";
-import CapsulesImage from "../../assets/images/capsules.jpg";
-import CrewImage from "../../assets/images/crew.jpg";
-import RocketsImage from "../../assets/images/rockets.jpg";
-import StarlinkImage from "../../assets/images/starlink.jpg";
+import React, { useEffect } from "react";
+import { Card } from "./components/card";
+import CapsulesImage from "../../../assets/images/capsules.jpg";
+import CrewImage from "../../../assets/images/crew.jpg";
+import RocketsImage from "../../../assets/images/rockets.jpg";
+import StarlinkImage from "../../../assets/images/starlink.jpg";
+import { getStarlink } from "../../../api";
 
 const cards = [
   { src: CapsulesImage, alt: "Capsule in a space", title: "Capsules" },
@@ -13,6 +14,10 @@ const cards = [
 ];
 
 export const CardsSection = () => {
+  useEffect(() => {
+    getStarlink();
+  }, []);
+
   return (
     <section className="cards-section">
       {cards.map((card) => (

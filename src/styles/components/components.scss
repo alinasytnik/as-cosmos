@@ -1,5 +1,9 @@
-@import "./header/header.scss";
-@import "./footer/footer.scss";
-@import "./cards-section/cards-section.scss";
-@import "./card/card.scss";
-@import "./background-elements/background-elements.scss";
+@import "./sections/header/header.scss";
+@import "./sections/footer/footer.scss";
+@import "./sections/cards-section/cards-section.scss";
+@import "./sections/cards-section/components/card/card.scss";
+@import "./core/background-elements/background-elements.scss";
+@import "./core/modal/modal.scss";
+@import "./core/sort-buttons/sort-buttons.scss";
+@import "./core/list/list.scss";
+@import "./core/list/list-item/list-item.scss";

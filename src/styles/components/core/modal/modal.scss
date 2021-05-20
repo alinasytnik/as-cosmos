@@ -1,0 +1,31 @@
+.modal {
+  padding: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: $violet-500;
+  border-radius: 16px;
+  min-width: 540px;
+  pointer-events: all;
+  position: relative;
+  color: white;
+}
+
+.modal-bg {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal-btn {
+  position: absolute;
+  top: 23px;
+  right: 23px;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 6px;
+  transition: background-color 200ms;
+  &:hover {
+    background-color: $violet-400;
+  }
+}

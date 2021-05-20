@@ -1,0 +1,29 @@
+.sort-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: transparent;
+  width: 100%;
+  text-align: left;
+  color: $violet-50;
+  transition: background-color 200ms, opacity 200ms;
+  border-radius: 4px;
+  cursor: pointer;
+  &:hover {
+    background-color: $violet-600;
+    & img {
+      opacity: 1 !important;
+    }
+  }
+  & > img {
+    opacity: 0 !important;
+  }
+}
+
+.sort-button-active {
+  background-color: $violet-600;
+  & img {
+    opacity: 1 !important;
+  }
+}

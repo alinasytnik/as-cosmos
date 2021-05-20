@@ -1,0 +1,11 @@
+@import "./list-item/list-item.scss";
+
+.list {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  & > li:last-child {
+    padding-bottom: 28px;
+  }
+}

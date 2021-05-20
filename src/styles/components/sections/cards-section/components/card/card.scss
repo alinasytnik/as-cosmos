@@ -1,0 +1,89 @@
+.card {
+  width: 160px;
+  height: 208px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.card-gradient {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-image: linear-gradient(
+    to top,
+    $violet-500,
+    $violet-500-transparent
+  );
+  padding: 24px;
+  transition: padding-bottom 200ms;
+  &:hover {
+    padding-bottom: 55%;
+    background-image: linear-gradient(
+      to top,
+      $violet-400-ghosted,
+      $violet-500-ghosted
+    );
+  }
+}
+
+.card-title {
+  color: white;
+}
+
+.lists-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 16px;
+  overflow-y: auto;
+  max-height: 236px;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $violet-700;
+  border-radius: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $violet-300;
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $violet-400;
+}
+
+.gradient {
+  position: absolute;
+  bottom: 20px;
+  width: calc(100% - 52px);
+
+  height: 52px;
+  background: linear-gradient(rgba(43, 34, 74, 0), rgba(43, 34, 74, 1));
+}
