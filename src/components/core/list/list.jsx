@@ -1,18 +1,14 @@
 import React from "react";
 import { ListItem } from "./list-item";
 
-export const List = () => {
+export const List = (props) => {
+  const { items } = props;
+
   return (
     <ul className="list">
-      <ListItem />
-      <ListItem />
-      <ListItem />
-      <ListItem />
-      <ListItem />
-      <ListItem />
-      <ListItem />
-      <ListItem />
-      <ListItem />
+      {items.map((item, index) => (
+        <ListItem key={index}>{item}</ListItem>
+      ))}
     </ul>
   );
 };

@@ -1,7 +1,7 @@
 import React, { useMemo } from "react";
-import ArrowsSortIcon from "../../../../assets/icons/arrows-sort.svg";
-import ArrowUpIcon from "../../../../assets/icons/arrow-up.svg";
-import ArrowDownIcon from "../../../../assets/icons/arrow-down.svg";
+import ArrowsSortIcon from "../../../assets/icons/arrows-sort.svg";
+import ArrowUpIcon from "../../../assets/icons/arrow-up.svg";
+import ArrowDownIcon from "../../../assets/icons/arrow-down.svg";
 
 export const SortButton = (props) => {
   const { children, sortValue = "unsorted", onSortChange } = props;

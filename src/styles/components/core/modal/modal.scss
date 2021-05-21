@@ -4,17 +4,21 @@
   padding-right: 24px;
   background-color: $violet-500;
   border-radius: 16px;
-  min-width: 540px;
+  width: 540px;
+  max-width: 540px;
   pointer-events: all;
   position: relative;
   color: white;
 }
 
 .modal-bg {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  pointer-events: all;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .modal-btn {

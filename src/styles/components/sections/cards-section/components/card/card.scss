@@ -49,7 +49,7 @@
   color: white;
 }
 
-.lists-container {
+.card-modal-lists-container {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -79,11 +79,20 @@
   background: $violet-400;
 }
 
-.gradient {
+.card-modal-gradient {
   position: absolute;
   bottom: 20px;
   width: calc(100% - 52px);
+  pointer-events: none;
 
   height: 52px;
   background: linear-gradient(rgba(43, 34, 74, 0), rgba(43, 34, 74, 1));
+}
+
+.card-modal-sort-buttons {
+  width: 100%;
+  background-color: $violet-400;
+  border-radius: 4px;
+  margin-top: 10px;
+  display: flex;
 }

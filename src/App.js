@@ -1,15 +1,21 @@
 import "./styles/global.scss";
-import { Header, Footer, CardsSection, BackgroundElements } from "./components";
+import {
+  Header,
+  Footer,
+  CardsSection,
+  BackgroundElements,
+  RocketSection,
+} from "./components";
 
 function App() {
   return (
     <div>
       <Header />
-      <BackgroundElements />
       <main>
         <CardsSection />
+        <RocketSection />
       </main>
-
+      <BackgroundElements />
       <Footer />
     </div>
   );

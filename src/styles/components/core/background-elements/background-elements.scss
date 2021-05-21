@@ -1,18 +1,21 @@
-.circle-left {
+.circle {
   position: absolute;
+  z-index: -1;
+}
+
+.circle-left {
   transform: translateX(-50%);
   left: 0;
   top: 40%;
 }
 
 .circle-right {
-  position: absolute;
   transform: translateX(40%);
   right: 0;
+  top: 15%;
 }
 
 .circle-center {
-  position: absolute;
   transform: translateY(-65%);
   top: 0;
   left: 484px;
@@ -24,6 +27,7 @@
   width: 8px;
   height: 8px;
   border-radius: 100%;
+  z-index: -1;
 }
 
 .dot-red-left {
@@ -48,4 +52,7 @@
   background-color: $red;
   bottom: 208px;
   right: 173px;
+}
+
+.background-elements {
 }

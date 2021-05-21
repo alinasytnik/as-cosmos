@@ -1,0 +1,44 @@
+@keyframes smoke-appearing {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes rocket-appearing {
+  0% {
+    top: 50%;
+  }
+  12% {
+    top: 50%;
+  }
+  30% {
+    top: 25%;
+  }
+  55% {
+    top: -500%;
+  }
+  85% {
+    top: 50%;
+  }
+  100% {
+    top: 50%;
+  }
+}

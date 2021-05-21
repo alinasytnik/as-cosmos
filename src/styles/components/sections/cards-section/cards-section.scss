@@ -2,7 +2,8 @@
   display: grid;
   row-gap: 30px;
   column-gap: 32px;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto;
-  width: 350px;
+  grid-template-columns: 150px 160px;
+  grid-template-rows: 208px 208px;
+  place-content: center;
+  width: 50%;
 }

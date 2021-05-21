@@ -1,0 +1,26 @@
+.button {
+  padding: 12px 36px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 200ms;
+  margin-top: 23px;
+}
+
+.button-violet {
+  background-color: $violet-200;
+  &:hover {
+    background-color: $violet-300;
+  }
+  &:active {
+    background-color: $violet-400;
+  }
+}
+
+.button-green {
+  background-color: $green;
+}
+
+.button-disabled {
+  cursor: not-allowed;
+}

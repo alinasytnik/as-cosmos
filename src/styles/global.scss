@@ -9,11 +9,26 @@ body {
   padding-left: 130px;
   padding-right: 130px;
   font-family: "Inter", sans-serif;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 main {
   min-height: calc(100vh - 170px);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 860px) {
+  main {
+    flex-direction: column-reverse;
+  }
+
+  body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 #modal-root {
