@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Button } from "../../core/button/button";
-import MoonIcon from "../../../assets/icons/moon.svg";
 import { RocketIcon } from "../../icons/rocket-icon";
 import { SmokeSecondIcon } from "../../icons/smoke-second-icon";
 import { SmokeFirstIcon } from "../../icons/smoke-first-icon";
@@ -43,7 +42,11 @@ export const RocketSection = () => {
           className="landing-gear"
         />
       </div>
-      <img src={MoonIcon} alt="Moon" className="rocket-section-the-moon"></img>
+      <img
+        src={process.env.PUBLIC_URL + "/moon.svg"}
+        alt="Moon"
+        className="rocket-section-the-moon"
+      ></img>
       <Button
         disabled={isAnimationActive}
         onClick={enableAnimation}
