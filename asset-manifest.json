@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/as-cosmos/static/css/main.62774430.chunk.css",
-    "main.js": "/as-cosmos/static/js/main.bd2fc2e2.chunk.js",
-    "main.js.map": "/as-cosmos/static/js/main.bd2fc2e2.chunk.js.map",
+    "main.js": "/as-cosmos/static/js/main.81e98582.chunk.js",
+    "main.js.map": "/as-cosmos/static/js/main.81e98582.chunk.js.map",
     "runtime-main.js": "/as-cosmos/static/js/runtime-main.a9c04c68.js",
     "runtime-main.js.map": "/as-cosmos/static/js/runtime-main.a9c04c68.js.map",
     "static/js/2.438ed7df.chunk.js": "/as-cosmos/static/js/2.438ed7df.chunk.js",
@@ -21,7 +21,6 @@
     "static/media/crew.00a2d1d4.jpg": "/as-cosmos/static/media/crew.00a2d1d4.jpg",
     "static/media/landing-gear.1f3e6da7.svg": "/as-cosmos/static/media/landing-gear.1f3e6da7.svg",
     "static/media/logo.d135bb48.svg": "/as-cosmos/static/media/logo.d135bb48.svg",
-    "static/media/moon.3dfe2663.svg": "/as-cosmos/static/media/moon.3dfe2663.svg",
     "static/media/rockets.c19818c6.jpg": "/as-cosmos/static/media/rockets.c19818c6.jpg",
     "static/media/starlink.af9a46ee.jpg": "/as-cosmos/static/media/starlink.af9a46ee.jpg"
   },
@@ -29,6 +28,6 @@
     "static/js/runtime-main.a9c04c68.js",
     "static/js/2.438ed7df.chunk.js",
     "static/css/main.62774430.chunk.css",
-    "static/js/main.bd2fc2e2.chunk.js"
+    "static/js/main.81e98582.chunk.js"
   ]
 }
