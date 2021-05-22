@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/as-cosmos/static/css/main.62774430.chunk.css",
-    "main.js": "/as-cosmos/static/js/main.b89bfc5b.chunk.js",
-    "main.js.map": "/as-cosmos/static/js/main.b89bfc5b.chunk.js.map",
+    "main.js": "/as-cosmos/static/js/main.bd2fc2e2.chunk.js",
+    "main.js.map": "/as-cosmos/static/js/main.bd2fc2e2.chunk.js.map",
     "runtime-main.js": "/as-cosmos/static/js/runtime-main.a9c04c68.js",
     "runtime-main.js.map": "/as-cosmos/static/js/runtime-main.a9c04c68.js.map",
     "static/js/2.438ed7df.chunk.js": "/as-cosmos/static/js/2.438ed7df.chunk.js",
@@ -15,7 +15,7 @@
     "static/media/arrow-down.edf3240b.svg": "/as-cosmos/static/media/arrow-down.edf3240b.svg",
     "static/media/arrow-up.3f5e5535.svg": "/as-cosmos/static/media/arrow-up.3f5e5535.svg",
     "static/media/arrows-sort.0d836187.svg": "/as-cosmos/static/media/arrows-sort.0d836187.svg",
-    "static/media/capsules.0fc40cd1.jpg": "/as-cosmos/static/media/capsules.0fc40cd1.jpg",
+    "static/media/capsules.8bd771bb.jpg": "/as-cosmos/static/media/capsules.8bd771bb.jpg",
     "static/media/circle.f32f1566.svg": "/as-cosmos/static/media/circle.f32f1566.svg",
     "static/media/close.3b1d74f8.svg": "/as-cosmos/static/media/close.3b1d74f8.svg",
     "static/media/crew.00a2d1d4.jpg": "/as-cosmos/static/media/crew.00a2d1d4.jpg",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.a9c04c68.js",
     "static/js/2.438ed7df.chunk.js",
     "static/css/main.62774430.chunk.css",
-    "static/js/main.b89bfc5b.chunk.js"
+    "static/js/main.bd2fc2e2.chunk.js"
   ]
 }
