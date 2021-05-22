@@ -13,22 +13,13 @@ body {
 }
 
 main {
-  min-height: calc(100vh - 170px);
+  height: calc(100vh - 170px);
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-}
-
-@media only screen and (max-width: 860px) {
-  main {
-    flex-direction: column-reverse;
-  }
-
-  body {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 #modal-root {
@@ -39,4 +30,41 @@ main {
   top: 0;
   z-index: 1000;
   pointer-events: none;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: $violet-700;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $violet-300;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: $violet-400;
+}
+
+@media only screen and (max-width: $desktop) {
+  body {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+
+@media only screen and (max-width: $tablet) {
+  main {
+    height: auto;
+    flex-direction: column;
+  }
+
+  body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }

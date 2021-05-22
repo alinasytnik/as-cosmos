@@ -1,6 +1,4 @@
 .card {
-  width: 160px;
-  height: 208px;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -13,6 +11,7 @@
   width: 100%;
   height: 100%;
   position: absolute;
+  object-fit: cover;
   left: 0;
   right: 0;
   bottom: 0;
@@ -45,40 +44,6 @@
   }
 }
 
-.card-title {
-  color: white;
-}
-
-.card-modal-lists-container {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  margin-top: 16px;
-  overflow-y: auto;
-  max-height: 236px;
-}
-
-::-webkit-scrollbar {
-  width: 4px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: $violet-700;
-  border-radius: 8px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: $violet-300;
-  border-radius: 8px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: $violet-400;
-}
-
 .card-modal-gradient {
   position: absolute;
   bottom: 20px;
@@ -95,4 +60,23 @@
   border-radius: 4px;
   margin-top: 10px;
   display: flex;
+}
+
+.card-title {
+  color: white;
+}
+
+.card-modal-lists-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 16px;
+  overflow-y: auto;
+  max-height: 236px;
+}
+
+@media only screen and (max-width: $mobile) {
+  .card {
+    min-height: 250px;
+  }
 }

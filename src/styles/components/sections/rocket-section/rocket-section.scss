@@ -1,5 +1,5 @@
 .rocket-section {
-  width: 50%;
+  width: 35%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,8 +8,8 @@
 }
 
 .rocket-section-the-moon {
-  width: 375px;
-  height: 372px;
+  width: 100%;
+  height: 100%;
 }
 
 .rocket-box {
@@ -61,4 +61,10 @@
   animation-name: rocket-appearing;
   animation-duration: 8s;
   animation-timing-function: ease-out;
+}
+
+@media only screen and (max-width: $tablet) {
+  .rocket-section {
+    width: 80%;
+  }
 }

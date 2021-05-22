@@ -9,7 +9,7 @@ import {
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
       <main>
         <CardsSection />
@@ -17,7 +17,7 @@ function App() {
       </main>
       <BackgroundElements />
       <Footer />
-    </div>
+    </>
   );
 }
 

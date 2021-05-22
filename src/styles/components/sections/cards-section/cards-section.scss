@@ -2,8 +2,25 @@
   display: grid;
   row-gap: 30px;
   column-gap: 32px;
-  grid-template-columns: 150px 160px;
-  grid-template-rows: 208px 208px;
-  place-content: center;
-  width: 50%;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  height: 100%;
+  width: 35%;
+}
+
+@media only screen and (max-width: $tablet) {
+  .cards-section {
+    height: 80vh;
+    width: 100%;
+    margin-bottom: 100px;
+    column-gap: 16px;
+    row-gap: 16px;
+  }
+}
+
+@media only screen and (max-width: $mobile) {
+  .cards-section {
+    grid-template-columns: auto;
+    height: auto;
+  }
 }
